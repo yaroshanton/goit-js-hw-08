@@ -10,7 +10,7 @@ const modalWindowRef = {
     button: document.querySelector('.lightbox__button'),
 };
 
-function creatingElementsMarkup({preview, original, description}) {
+function creatingElementsMarkup({ preview, original, description }) {
     const galeryItem = document.createElement('li');
     const galeryLink = document.createElement('a');
     const galeryImg = document.createElement('img');
